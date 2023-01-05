@@ -1,4 +1,4 @@
-baseurl: '/myjekylltoolbox.github.io'
+baseurl: '/myjekylltoolbox.github.io/'
 permalink: pretty
 title: 'Jekyll Serif'
 
