@@ -1,7 +1,7 @@
 ---
 title: "FUSE OPC-UA"
 date: 2018-11-18T12:33:46+10:00
-weight: 2
+weight: 3
 description: "FUSE OPC-UA is a tool enabling the necessary data transfer during on-line operation of FUSE state estimation tool."
 license: "https://img.shields.io/badge/license-Apache2.0-blue"
 trl: "https://img.shields.io/badge/TRL-8-green"

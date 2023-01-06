@@ -1,20 +1,18 @@
 ---
-title: "MAI"
+title: "TIA CONNECT"
 date: 2018-11-18T12:33:46+10:00
-weight: 1
-description: "Weather data from yr.no for application in model of industrial process."
+weight: 4
+description: "TIA CONNECT enable non-experts to create data stream pipes that end with Cassandra and Fiware."
 license: "https://img.shields.io/badge/license-Apache2.0-blue"
 trl: "https://img.shields.io/badge/TRL-8-green"
 ---
 
-Weather data from yr.no for application in model of industrial process.
+TIA CONNECT enable non-experts to create data stream pipes that end with Cassandra and Fiware.
 
 ## Name
 MAI - Collection of weather data
-
 ## Defined in Task
 Task 5.1: Plant Digital Twins with ML/AI
-
 ## Short description
 The MET API Interface (MAI for short) is a user interface to FROST, the API developed by the Norwegian Meteorological Institute (MET) which enables public access to weather data. MAI is a software bundle written in Python and is intended to be used as a standard Python module.
 
