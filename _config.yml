@@ -1,14 +1,14 @@
 baseurl: '/'
 permalink: pretty
-title: 'Jekyll Serif'
+title: 'COGNITWIN Toolbox Portal'
 
 logo:
-  mobile: "images/logo/logo-mobile.svg"
+  mobile: "images/logo/logo.png"
   mobile_height: "32px"
-  mobile_width: "32px"
-  desktop: "images/logo/logo.svg"
+  #mobile_width: "32px"
+  desktop: "images/logo/logo.png"
   desktop_height: "32px"
-  desktop_width: "120px"
+  #desktop_width: "120px"
 
 home: 
   limit_services: 6
@@ -19,6 +19,14 @@ collections:
     sort_by: weight
   team:
     output: true
+  
+  pipelines:
+    output: true
+    sort_by: weight
+
+  acquisitions:
+    output: true
+    sort_by: weight
 
 defaults:
   - scope:
@@ -31,6 +39,18 @@ defaults:
       type: "team"
     values:
       layout: "team"
+  - scope:
+      path: ""
+      type: "pipelines"
+    values:
+      layout: "pipeline"
+  
+  - scope:
+      path: ""
+      type: "acquisitions"
+    values:
+      layout: "acquisition"
+
 
 sass:
   style: compressed # possible values: nested expanded compact compressed
