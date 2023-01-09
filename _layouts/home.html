@@ -95,11 +95,9 @@ bodyClass: "page-home"
       <div class="col-12 col-md-6 col-lg-4 mb-2">
         <div class="feature" style="  border-radius: 10px 10px 10px 10px; border: 2px solid #3C6255;">
           <h3 class="feature-title"><a href="{{ feature.url | relative_url }}">{{ feature.title }}</a></h3>
-          <div class="feature-content">{{ feature.description }}</div>
-          <div class="row justify-content-start">
+          <div class="feature-content">{{ feature.description | truncate: 120 }}</div>
+          <div class="row justify-content-center">
             
-            
-
             {% if feature.link %}
               <div class="col-auto"><a href="{{ feature.link }}" target="blank"> <img src="/images/open.png" alt="Link"/> </a> </div>
             {% endif %}
